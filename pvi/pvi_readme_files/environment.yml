@@ -1,0 +1,19 @@
+name: pvi
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - jupyterlab
+  - matplotlib
+  - gpytorch
+  - tqdm
+  - ipywidgets
+  - scikit-learn
+  - torchvision
+  - pandas
+  - cudatoolkit=10.1
+  - dill
+  - vim
+  - black
+prefix: /homes/mca39/miniconda3/envs/pvi
