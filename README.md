@@ -11,6 +11,8 @@ The BNN experiments require downloading larger data sets from the PyTorch Data S
 We furthermore provide some other code that was not used throughout the thesis in the folder '/notebooks/Further_BNNs_NOT_used/'. This includes toy data sets for PVI with logistic regression, and Sparse Gaussian Processes. We also provide code for the Banana classification data set with Sparse Gaussian Process classification; it is not necessary to download this data, as we provide it in '/data/banana/'. 
 We provide these experiments here, even though they are not used in the thesis, since they were not working in the original PVI code base of Ashman et al. (2022) to demonstrate that we fixed errors and bugs in their code. We further extend these experiments to different toy data sets. These are however not part of the thesis, since the objective of the project changed throughout the year, where we were moving away from doing simply PVI to developing a robust algorithm for model misspecification, PGVI.
 
+We hope that this code can benefit others that are interested in robust Federated Learning.
+
 References:
 
 Matthew Ashman, Thang D. Bui, Cuong V. Nguyen, Stratis Markou, Adrian Weller, Siddharth Swaroop, and Richard E. Turner. Partitioned variational inference: A framework for probabilistic federated learning. arXiv preprint arXiv:2202.12275, 2022.
